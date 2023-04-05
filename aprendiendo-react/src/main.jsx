@@ -5,8 +5,10 @@ import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-
-  'Hola'
+  <React.Fragment>
+<div>'Hola'</div>
+  <button>Hola</button>
+  </React.Fragment>
 )
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
