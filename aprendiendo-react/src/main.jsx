@@ -4,10 +4,10 @@ import App from './App'
 import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
-  <React.Fragment>
-<div>'Hola'</div>
-  <button>Hola</button>
+root.render( //solo permite insertar un elemento
+  <React.Fragment> // permite insertar mas de un elemento
+    <div>'Hola'</div>
+    <button>Hola</button>
   </React.Fragment>
 )
 
